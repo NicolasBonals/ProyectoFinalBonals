@@ -4,7 +4,7 @@
 
 
 div{
-    background-color: gold;
+    background-color: lightgreen;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 5%;
-        top: 40%;
+        top: 45%;
     }
 }
 
@@ -33,7 +33,7 @@ div{
 
 #nombre{
     font-weight: unset;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 5%;
 }
 
