@@ -1,0 +1,39 @@
+.row{
+    padding: 20px;
+}
+
+
+div{
+    background-color: gold;
+    text-align: center;
+}
+
+/*Acá puedo editar el estilo de la foto de perfil */
+@media (min-width: 576px) { /* Esto aclara que los cambios son si la pantalla "no es de celular"*/
+    #fotoPerfil{            /* En verdad aclara los pixeles de ancho de la pantalla, pero se entiende*/
+        position: absolute;
+        width: 8%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+        top: 40%;
+    }
+}
+
+@media (max-width: 575px) { /*Esto aclara que los cambios son si la pantalla "es de celular"*/
+    #fotoPerfil{
+        position: absolute;
+        width: 8%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 50%;
+        top: 45%;
+    }
+}
+
+#nombre{
+    font-weight: unset;
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
