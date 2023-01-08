@@ -9,12 +9,7 @@ public class LoginUsuario {
     @NotBlank
     private String password;
     
-    //constructores
-    
-    public LoginUsuario(String nombreUsuario, String password) {
-        this.nombreUsuario = nombreUsuario;
-        this.password = password;
-    }
+
     
     //Getters&Setters
 
