@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\proyecto-final-bonals",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

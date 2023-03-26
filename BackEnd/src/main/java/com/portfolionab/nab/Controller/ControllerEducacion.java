@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController //Lo marco como controller
 @RequestMapping("/educacion")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-nab.web.app/")
 public class ControllerEducacion {
     @Autowired
     ServiceEducacion serviceEducacion;
